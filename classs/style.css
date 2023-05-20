@@ -1,0 +1,39 @@
+.header{
+    padding:0px 60px;
+     
+    border-bottom: solid grey 1px;
+}
+.header h1{
+     font-size: 24px;
+     font-weight: 400;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(233, 11, 181, 0.692),rgb(161, 82, 226));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    
+    height: 100vh;
+  
+}
+.main{
+    padding: 0px 60px;
+   
+}
+.todo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100vw; 
+    gap: 5px;
+}
+.cut{
+    text-decoration: line-through;
+}
+h2{
+    text-shadow:5px 5px rgb(88, 88, 88);
+
+}
+
